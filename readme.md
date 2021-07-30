@@ -21,9 +21,11 @@ A customizable random constellation generator with UI script
 <img src="./readme_files/kneeling_bowman.png" alt="bowman" width="400"/>
 <img src="./readme_files/frog.png" alt="frog" width="400"/>
 
+Uses a ```Particle System``` to generate the nodes, then runs a simple algorithm to iteratively add links between them using ```Stretch To``` constraints.
+
 ## eyelids
 A first person eyelids closing effect compositor node group, has a single value that can be animated representing how open or closed the eyelids are.
-<!-- I stg why am I even using markdown if I have to write html every other line to get it to work -->
+
 ![eyelids demo](./readme_files/eyelids.png)
 
 <!-- <video width="320" height="240" controls>
